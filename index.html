@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .code {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .note {
+            background: #fff3cd;
+            padding: 10px;
+            border-left: 5px solid #ffc107;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+
+    <h1>🫀 Heart Disease Prediction using Machine Learning 🤖</h1>
+
+    <h2>Introduction</h2>
+    <p>
+        This project uses machine learning to predict whether a patient has heart disease 
+        based on several clinical features such as age, sex, blood pressure, and cholesterol levels.
+    </p>
+    <p>
+        Multiple models were trained, including <span class="highlight">Random Forest</span>, 
+        to provide a preliminary diagnosis using CSV or Excel patient data.
+    </p>
+
+    <h2>Main Goals</h2>
+    <ul>
+        <li>Demonstrate a complete ML workflow (EDA, preprocessing, training, evaluation).</li>
+        <li>Allow users to upload patient files and get instant predictions.</li>
+        <li>Identify key features correlated with heart disease.</li>
+    </ul>
+
+    <h2>Dataset Features</h2>
+    <ul>
+        <li>age – Age of the patient</li>
+        <li>sex – Gender (0 = female, 1 = male)</li>
+        <li>cp – Chest pain type</li>
+        <li>trestbps – Resting blood pressure</li>
+        <li>chol – Serum cholesterol</li>
+        <li>fbs – Fasting blood sugar</li>
+        <li>restecg – ECG results</li>
+        <li>thalach – Max heart rate</li>
+        <li>exang – Exercise-induced angina</li>
+        <li>oldpeak – ST depression</li>
+        <li>slope, ca, thal</li>
+    </ul>
+
+    <h2>Model Performance</h2>
+    <p><strong>Random Forest Accuracy:</strong> 98.5%</p>
+
+    <h2>Sample Output</h2>
+    <div class="code">
+🩺 Diagnosis Results:<br>
+🫀 Patient #1: Heart disease detected (preliminary diagnosis)
+    </div>
+
+    <h2>Conclusion</h2>
+    <p>
+        This project demonstrates how machine learning can assist in early heart disease prediction.
+        The model achieved high accuracy and can analyze new patient data effectively.
+    </p>
+
+    <div class="note">
+        ⚠️ This is a preliminary diagnostic tool and should not replace professional medical advice.
+    </div>
+
+    <h3>Author</h3>
+    <p><strong>Lilian Alhalabi</strong></p>
+
+</div>
+
+</body>
+</html>
